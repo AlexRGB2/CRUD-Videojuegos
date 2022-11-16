@@ -48,10 +48,10 @@
     <img
       [src]="
         game.image == ''
-          ? '/client/src/assets/178493166-default-image-icon-vector-missing-picture-page-for-website-design-or-mobile-app-no-photo-available-.webp'
+          ? './../../../assets/178493166-default-image-icon-vector-missing-picture-page-for-website-design-or-mobile-app-no-photo-available-.webp'
           : game.image
       "
-      class="card-img-top"
+      class="card-img-top rounded"
     />
     <br />
     <h3>{{ game.title == "" ? "Game Title" : game.title }}</h3>
